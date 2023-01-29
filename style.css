@@ -1,0 +1,168 @@
+body {
+    background-color: #C4D4AB;
+}
+
+.logo {
+    margin: 35px 0 30px 45px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 4px;
+    margin-left: 85px;
+}
+
+.codificador-area {
+    border: none;
+    border-radius: 10px;
+    background: #C4D4AB;
+    width: 750px;
+    height: 390px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #888383;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #888383; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensagem {
+    background: #E0E0B6;
+    color: #888383;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 300px;
+    height: 401px;
+    border: none;
+    border-radius: 15px;
+    margin-left: 82px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#888383;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 20%;
+}
+
+.botoes{
+    width: 600px;
+    margin: 15px 18%;
+}
+
+.botao-codificar {
+    border-radius: 15px;
+    width: 45%;
+    margin: 0 15px;
+    padding: 15px 60px;
+    border: none;
+    background-color: #87B091;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E0E0B6;  
+    
+}
+
+.botao-descodificar {
+    border-radius: 15px;
+    width: 45%;
+    padding: 15px 60px;
+    border: none;
+    color: #87B091;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0E0B6;  
+}
+
+.botao-copiar {
+    border: none;
+    border-radius: 15px;
+    background-color: #87b091;
+    color:#E0E0B6;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 119px;
+    margin-top: 13px;
+    width: 250px;
+}
+
+.botao-codificar:hover, .botao-copiar:hover {
+    cursor: pointer;
+    background-color:#6c8f75;
+    transition: 0.3s;
+}
+
+.botao-descodificar:hover {
+    cursor: pointer;
+    background-color:#bbbb9b;
+    color: #e0e0b6;
+    transition: 0.3s;
+}
+
+@media (max-width: 1024px) {
+
+    .logo {
+        width: 25%;
+        height: 35%;
+    }
+
+    main {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+
+    .codificador-area {
+        width: 500px;
+        font-size: 23px;
+        margin-left: 60px;
+        
+    }
+
+    .informação {
+        
+    }
+
+    h6 {
+        font-size: 16px;
+        padding-left: 12px;
+        
+    }
+
+    .botoes {
+        margin-left: 40px;
+        width: 550px;
+    }
+
+    .botao-codificar, .botao-descodificar {
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+     .mensagem {
+        width: 500px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .botao-copiar {
+        width: 250px;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 191px;
+        margin-top: 15px;
+        
+    }
+}
